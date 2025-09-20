@@ -1,0 +1,200 @@
+.login {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../../assets/header-img.jpg');
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-login {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.login-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-card-innerdiv {
+    height: auto;
+    background-color: rgba(18, 18, 18, 0.847);
+    padding: 40px 20px;
+}
+
+.login-title {
+    margin: 0px 10%;
+    width: 60%;
+}
+
+.input-fields {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-email,
+.login-pass {
+    width: 80%;
+    padding: 15px 10px;
+    font-size: medium;
+    margin: 5px 0;
+    background-color: rgba(57, 53, 53, 0.159);
+    border: 1px solid rgba(176, 174, 174, 0.325);
+    border-radius: 5px;
+    transition: 0.5s border ease-in;
+    color: white;
+}
+
+/* .login-email:hover,
+.login-pass:hover, */
+.login-email:active,
+.login-pass:active {
+    border: 1px solid white;
+}
+
+.login-btn,
+.login-code-btn {
+    width: 80%;
+    font-size: 0.9rem;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 1px solid transparent;
+    transition: 0.3s all ease-out;
+    margin: 5px 0;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-btn {
+    background-color: rgb(186, 14, 14);
+}
+
+.or {
+    color: rgba(103, 98, 98, 0.984);
+    margin: 5px 0;
+}
+
+.login-code-btn {
+    background-color: rgba(85, 83, 83, 0.607);
+}
+
+.login-btn:hover {
+    background-color: rgb(211, 23, 23);
+}
+
+.login-code-btn:hover {
+    background-color: rgba(66, 64, 64, 0.607);
+}
+
+.input-fields a {
+    color: white;
+    margin: 5px 0;
+}
+
+.input-fields a:hover {
+    color: rgb(147, 143, 143);
+}
+
+.additional-login-info {
+    margin: 10px 10%;
+    font-size: 0.85rem;
+}
+
+.checkbox-reme-me {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 5px 0;
+}
+
+
+.checkbox-reme-me *,
+.checkbox-reme-me *:after,
+.checkbox-reme-me *:before {
+    box-sizing: border-box;
+}
+
+.checkbox-reme-me input {
+    position: absolute;
+    opacity: 0;
+}
+
+.checkbox-reme-me input:checked+label svg path {
+    stroke-dashoffset: 0;
+}
+
+.checkbox-reme-me input:focus+label {
+    transform: scale(1.03);
+}
+
+.checkbox-reme-me input+label {
+    display: block;
+    border: 2px solid #d6d2d2;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.checkbox-reme-me input+label:active {
+    transform: scale(1.05);
+    border-radius: 12px;
+}
+
+.checkbox-reme-me input+label svg {
+    pointer-events: none;
+    padding: 5%;
+}
+
+.checkbox-reme-me input+label svg path {
+    fill: none;
+    stroke: #e8e0e0;
+    stroke-width: 4px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-dasharray: 100;
+    stroke-dashoffset: 101;
+    transition: all 250ms cubic-bezier(1, 0, .37, .91);
+}
+
+.label-2 {
+    margin: 0 10px;
+}
+
+.new-signup {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    color: rgb(151, 148, 148);
+    font-size: 0.9rem;
+}
+
+.new-signup a {
+    margin: 0 10px;
+    border-bottom: none;
+    color: rgb(151, 148, 148);
+    transition: all 250ms cubic-bezier(1, 0, .37, .91);
+}
+
+.new-signup a:hover {
+    color: rgb(232, 229, 229);
+}
+
+.discalmer {
+    font-size: 0.7rem;
+}
